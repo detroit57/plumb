@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Gloock&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  font-family: "Anton", sans-serif;
+  font-family: "Gloock", serif;
+  font-family: "Manrope", sans-serif !important;
+  background: rgb(6, 24, 41) !important;
+  color: #fff !important;
+}
+.bg {
+  background: #00000073;
+  backdrop-filter: blur(2px);
+}
+.color {
+  background: #c3c3c3;
+  box-shadow: 0px 0px 5px #6d6d6d;
+}
+.ani {
+  transition: all 0.4s;
+}
+.ani:hover {
+  color: white;
+  transition: all 0.4s;
+}
